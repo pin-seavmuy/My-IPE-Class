@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<style>
+    body{
+        width: 900px;
+        height: 100vh;
+        margin: 0 auto;
+        
+    }
+</style>
+<body>
+    <header>
+        <h1 style="text-align: center;">Login to Your Account</h1>
+    </header>
+    <main>
+        <nav style="border:1px solid gray; display: flex; justify-content: space-evenly; padding: 5px;">
+            <a href="./landing.html">Landing page</a>
+            <a href="./List-of_test_result_for_user.html"> List testing result page</a>
+            <a href="./User_Registering_Page.html">User Register page</a>
+            <a href="./User_Reset_Passwoord_Page.html">User Reset password page</a>
+            <a href="./User_Typing_Test_Page.html">Typing test page</a>
+        </nav>
+        <form action="#">
+            <fieldset >
+                <legend> <h3>login page</h3> </legend>
+                <label for="username">Username: </label>
+                <input type="text" id="username" required>
+                <br>
+                <label for="password">Password : </label>
+                <input type="password" id="password" required>
+                <br>
+                <button value="submit">Login</button>
+                <button value="reset">Reset</button>
+            </fieldset>
+        </form>
+    </main>
+    
+</body>
+</html>
