@@ -6,5 +6,6 @@ public class Hello {
         System.out.println("I'm Sreyroth");
         System.out.println("Ï'm reaksmey");
         System.out.println("Ï'm Seavmuy, i just test again");
+        System.out.println("Hi");
     }
 }
